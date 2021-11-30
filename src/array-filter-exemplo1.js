@@ -18,5 +18,6 @@ var arrayProdutos =
     }
 ]
   
-let resultado = arrayProdutos.filter(elemento => elemento.produto.includes('sabão em pó'));
+let resultado = arrayProdutos.
+filter(elemento => elemento.produto.includes('sabão em pó'));
 console.log(resultado)

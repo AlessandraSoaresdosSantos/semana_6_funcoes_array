@@ -18,6 +18,7 @@ var arrayProdutos =
     }
 ]
   
-let valorTotal = arrayProdutos.reduce((valorTotal, produto) => valorTotal + produto.valor, 0);
+let valorTotal = arrayProdutos.reduce((valorTotal, produto) 
+=> valorTotal + produto.valor, 0);
 
 console.log(valorTotal)
